@@ -1,0 +1,441 @@
+<html>
+
+    <head>
+        <link rel="stylesheet"  href="Styles.css">
+        
+
+
+        <style>
+            
+#img1{
+    margin-left:0px;
+    border-radius:px;
+    margin:10px;
+    margin-top:0%;
+    padding:0px;
+
+}
+#img2{
+    margin: 10px;
+    position: absolute;
+    top:0%;
+    right:-1%;
+    transform: translate(-30%,-30);
+    height: 200px;
+    width: 200px;
+}
+#img3{
+  
+    position: absolute;
+    top: 28%;
+    left:21%;
+    transform: translate(-30%,-50);
+    height: 80px;
+    width:110px;
+
+}
+
+h5{
+   margin-top: -250px;
+    font-size: 25px;
+    text-align: center;
+    color:darkblue;
+
+}
+h3{
+    margin-top:-30px;
+    font-size:35px;;
+    text-align: center;
+    color:orange;
+
+}
+h4{
+ 
+    margin-top:-280px;;
+    text-align: center;
+    color:darkblue;
+}
+h6{
+    color: red;
+    margin-top:-20px;
+     text-align:center;
+     font-size: 20px;
+}
+
+h2{
+
+    font-size:18px;
+    margin-top:-10px;
+    text-align: center;
+    color: blueviolet;
+
+}
+h1{
+    margin: 15px;
+    margin-bottom: 10;
+    font-size: 60px;
+    color:darkblue;
+}
+
+h3{
+
+    text-align:center;
+    margin-bottom: 300px;
+}
+
+nav{
+    margin: -10px;
+    border-radius: 50px;
+    height: 75px;
+    background-color:red;
+}
+
+ul{
+   overflow: none;
+}
+
+ul li{
+
+    float:left;
+    list-style:none;
+    margin: 28px 20px;
+    margin-left: -20px 20px 30px 40px;
+}
+
+li a{
+
+    
+    margin: 10px 20px 25px 30px;
+    color:white;
+    padding: 27px 35px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    
+    background-color: green;
+    color:blue;
+}
+
+        </style>
+       <img Id="img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUYU9K7BwP8VTo8dZzJnPBIqlJ-iPOF_hCOw&usqp=CAU">
+       
+       <img Id="img2" src="http://www.smjoshicollege.com/smjoshi1.jpg">
+
+       <img Id="img3" src="data:image/jpeg;base64,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">
+
+        <h5> Education Through Self-Help is Our Motto"-Karmaveer</h5>
+        <h3>Rayat Shikshan Sanstha's</h3>
+        <h4>ARTS|SCIENCE|COMMERCE|</h4>
+        <h6>(Re-Accredited by NAAC with 'A' Grade with CGPA of 3.09)
+        <br>(Affilated to Savitribai Phule Pune University,Pune I.D.No.PU/PN/SC/069/1986(Estd.1986)</h6>
+        <h2> Princicpal-Dr.GAIKWAD NANASAHEB SURYABHAN M.Sc.Ph.D.</h2>
+        <marquee> <tite> <h1>S.M JOSHI COLLEGE, HADAPSAR,PUNE-28</h1></tite></marquee>
+
+</head>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a>
+                </li>
+                <li> <a href="more_Info.html">More Information</a>
+                </li>
+                <li> <a href="CONTECT_US.html">Contact US </a>
+                </li>
+                <li> <a href="administraction.html">Registration</a></li>
+                <li>
+                     <a href="Admission_process.html">Admission procudure</a>
+                </li>
+                
+
+            </ul>
+        </nav>
+
+
+<style>
+    
+    </style>
+    </head>
+    <body>
+    
+<div class="slideshow-container">
+
+  
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img src="D:\images\smjcollege_sections.jpg" height="600px" width="1450px">
+ 
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img src="D:\images\smj_department_of_professnal_course.jpg" height="600px" width="1450px">
+ 
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="D:\images\smjimage3.jpg" height="600px" width="1450px">
+
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">4 / 5</div>
+    <img src="D:\images\smjimg4.jpg"  height="600px" width="1450px">
+    
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 5</div>
+    <img src="D:\images\smjimg3.jpg" height="600px" width="1450px">
+    
+  </div>
+
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      </div>
+      <br>
+
+
+
+      <style>
+
+        
+* 
+    body {
+        margin:0px;
+        font-family: sans-serif;
+
+    }
+    
+    /* Slideshow container */
+    .slideshow-container {
+        
+        padding: 0px;
+        
+      max-width: 600px;
+      position: relative;
+      
+    }
+    
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+    
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+    
+    /* The dots/bullets/indicators */
+    .dot {
+      height: 20px;
+      width: 20px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.10s ease;
+    }
+    
+    .active {
+      background-color: #717171;
+    }
+    
+    /* Fading animation */
+    .fade {
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    
+    @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+      .text {font-size: 11px}
+    }
+
+    .paragraphs h6{
+        font-size: 50px;
+        margin:10px;
+        color:blue;
+        text-align: right;
+    
+    }
+   
+
+      </style>
+
+      <div class="paragraphs">
+        <div class="p1">
+            <h6>EVENTS</h6>
+
+        </div>
+      </div>
+
+
+             
+
+       <p2> <marquee direction="left"  width="230%" style="color:blue; border:solid 30px;">
+
+            बुधवार , दि. १९ जानेवारी २०२२ रोजी एस. एम. जोशी महाविद्यालय आणि पुणे महानगर पालिका यांच्या संयूक्त विद्यमाने महाविद्यालयीन विद्यार्थी साठी कोविड -१९ लसीकरण शिबिर साजरे करण्यात आले .
+            
+            मंगळवार , दि. २५ जानेवारी २०२२ रोजी एस. एम. जोशी महाविद्यालया मध्ये मा. प्राचार्य डॉ. चंद्रकांत खिलारे साहेब यांच्या अध्यक्षतेखाली १२ वा राष्ट्रीय मतदार दिवस ( National Voter Day) साजरा करण्यात आला .
+            
+            International conference on new horizons of nanoscience and energy resources(NHNER-2022)
+            
+            R & D Cell and Department of Commerce organises 5 days online workshop on Research Methodology Date 1 July 2021
+            
+            International Conference on “Fungal Diversity and its Novel Applications” (FDNA-2022) 9th April 2022.
+            
+            Department of Botany in association with IQAc conference,seminar,workshop organised in 2020-21
+            
+            “Swatantryacha amrut mohotsavnimitta smaran krantiviranche and SPPU dindi sohala inauguration program” on the 23rd June 2022 (Thursday) at Savitribai Phule Pune University Ganesh Khind Road.
+            
+            “Hadapsar Police Station for Sant Shreshtha Dyaneshwar Mauli and Jagadguru Sant Tukaram Maharaj Palkhi Sohala on Friday on 24 June 2022.
+            
+            NSS, Department of Botany in association with State Bank of India performed in campus plantation activity on Wednesday 1 st July 2022.
+            
+            One Day Programme on "Solid Waste Management" in college Campus dated 10/09/2022.
+            
+            NSS and Campus Beautification committee jointly organised Plantation drive carried by NSS volunteers and College students in college Campus dated 17/09/2022.
+            
+            कर्मवीर जयंती सप्ताह निमित्त विविध स्पर्धांचे आयोजन दिनांक २२ ते २७ सप्टेंबर् २०२२
+            
+            On the occasion of 135th Birth Anniversary of Karmaveer Bhaurao Patil, NSS department Organised Cleanliness Activity in college Campus on 22/09/2022.
+            
+            NSS Day celebration by performing Street Play ( Pathanatya ) 24/09/2022 E- Waste Management.
+            
+            Under Vasundhara Green Campus Intiative Plantation program by NSS department on 28/09/2022
+            
+            Date : 1-10-2022 - Department of Zoology organization of Wildlife week
+            
+            दिनांक १५/१०/२०२२ - वाचन प्रेरणा दिन कार्यक्रम पत्रिका
+            
+            Date : 20-10-2022 - CRACKERS FREE DIWALI PLADGE PROGRAM
+            
+            Celebration of National Unity Day 31/10/2022
+            
+            Microbiology Awareness Programme Date: 22nd November 2021
+            
+            Date : 22-11-2022 - Inter-College level Judo Competition
+            
+            Date : 19-11-2022 - NSS Regular Cleaning activity
+            
+            Date:24/11/2022 NSS department River Sustainability Pledge
+            
+            Date : 26-11-2022 - Constitution Day Celebration
+            </marquee></p2>
+        </div>
+    </div>
+
+            <br>
+            <br>
+            <br>
+            <br>
+
+<br>
+<br>
+<br>
+
+<h6 style="font-size:50px;"><p3> Our Major Recruiters:</p3></h6>
+<br>
+<br>
+
+<marquee>
+  
+    <img  src="D:\images\bosch_image.png">
+  
+
+    <img id="g2"  src="D:\images\CDAC_image.jfif">
+   
+      <img id="g3"  src="D:\images\foxtin_image.jfif">
+    
+      <img src="D:\images\mckl_image.jfif">
+  
+      <img src="D:\images\tcs_image.png">
+
+  
+    <img src="D:\images\symbiosis_image.jfif">
+    
+</marquee>
+
+<br>
+<br>
+<br>
+<br>
+
+<img style="border:solid 5px"; src="https://smjoshicollege.com/images/collegepremises1.JPG"  height=600px width="1450px"/>
+<img style="border:solid 5px";  src="D:\images\smj_event.jpg"  height=600px width="1450px"/>
+<br>
+<br>
+<br>
+
+
+
+    <script>
+
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    </script>
+    
+    <div class="navbar12">
+      <div class="nav1">
+      <a href="http://www.unipune.ac.in/">
+      </a>
+    </div>
+     <div class="nav2">
+      <a href="http://smjc.rayaterp.in/">
+      </a>
+     </div>
+<div class="nav3">
+  <a href="https://twitter.com/joshi_college">
+  </a>
+    </div>
+</div>
+<style>
+.navbar12{
+border-radius: 10pxa;
+color:red;
+
+}
+</style>
+
+</body>
+        </html>

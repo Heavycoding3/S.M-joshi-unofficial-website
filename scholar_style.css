@@ -1,0 +1,26 @@
+h1{
+    color: blue;
+    text-align: center;
+}
+
+h3{
+
+    width: 30%;
+    border: solid 10px;
+    font-size: 20px;
+    color: red;
+   text-align: center;
+}
+h4{
+    
+    
+    width: 30%;
+    border: solid 10px;
+
+    color:green;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+

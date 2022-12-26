@@ -1,0 +1,49 @@
+img{
+    height: 400px;
+    width: 400px;
+
+
+}
+h3{
+    margin-top: -350px;
+    text-align: center;
+    color:orange;
+
+}
+
+
+
+body{
+    
+    background:linear-gradient(135deg,#71b7e6,#9b59b6);
+
+}
+label{
+    width: 100px;
+    display: inline-block;
+    margin: 4px;
+}
+
+.contect-us{
+
+    text-align: center;    
+    border-radius: 10px;
+    background:rgb(0, 0, 0);
+    color: green;
+    width: 400px;
+    padding: 4px;
+    margin-left: 500px;
+    margin-top: -10px;
+
+
+}
+.from{
+
+
+}
+h2{
+    padding: 10px;
+    text-align: center;
+}
+
+
